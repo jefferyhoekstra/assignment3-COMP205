@@ -1,0 +1,19 @@
+@import url('navbar.css');
+@import url('section-1.css');
+@import url('section-2.css');
+
+
+/* --- reset defaults --- */
+*
+{
+    scrollbar-width: none;
+    scroll-behavior: smooth;
+}
+*::-webkit-scrollbar
+{
+    display: none;
+}
+body, header {
+    margin: 0;
+    padding: 0;
+}

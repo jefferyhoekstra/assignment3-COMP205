@@ -1,0 +1,84 @@
+@import url('variables.css');
+
+@import url('https://fonts.googleapis.com/css2?family=Inria+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+
+main .section-1
+{
+    display: flex;
+    flex-direction: row;
+    /* styling */
+
+    width: 100%;
+    height: 800px;
+    background-image: url('../images/bg.jpg');
+    background-size: cover;
+}
+
+main .section-1 .hero-text
+{
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    margin: 0 2em;
+    width: 50%;
+
+    /* styling */
+    color: var(--main-text-color);
+    font-family: "Inria Sans", sans-serif;
+    font-size: 4.6em;
+    font-weight: 800;
+    text-shadow: 0px 0px 16px rgb(0,0,0,1);
+    
+}
+main .section-1 a
+{
+    width: 500px;
+    margin-top: -2em;
+}
+/* ordre page button */
+main .section-1 button
+{
+    margin-top: -2em;
+    padding: 0.1em 0em;
+    font-size: 0.7em;
+    font-weight: 900;
+    color: var(--main-text-color);
+    font-family: "Inria Sans", sans-serif;
+
+    background-color: var(--secondary-color);
+    border: none;
+    border-radius: 30px;
+    margin-top: 0em;
+    width: 500px;
+
+    box-shadow: 0px 5px 32px rgb(0,0,0,1);
+}
+
+main .section-1 .order svg
+{
+    color: white;
+    width: 100px;
+    vertical-align: middle;
+}
+
+
+
+/* hours list */
+
+main .section-1 .hoursOfOperation
+{
+    margin: 0 auto;
+    color: var(--main-text-color);
+    font-family: "Inria Sans", sans-serif;
+    font-size: 1.4em;
+    font-weight: 800;
+    text-shadow: 0px 0px 16px rgb(0,0,0,1);
+    text-align: center;
+
+}
+main .section-1 .hoursOfOperation .hoursList
+{
+    list-style-type: none;
+    text-align: left;
+
+}

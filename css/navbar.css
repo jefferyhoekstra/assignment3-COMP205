@@ -1,0 +1,78 @@
+@import url(variables.css);
+
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+header .navbar-container
+{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 110px;
+    background-color: var(--main-color);
+
+    /* positioning */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 0em;
+}
+header .navbar-container ul
+{
+    margin: 0 auto;
+
+    /* styling */
+    list-style-type: none;
+}
+header .navbar-container .nav-links
+{
+    /* positioning */
+    
+    display: flex;
+    flex-direction: row;
+    gap: 4em;
+    font-family: "Inter", sans-serif;
+
+    /* styling */
+    font-size: 1.3em;;
+    font-weight: 200;
+}
+header .navbar-container .logo li a
+{
+    display: inline-block;
+    margin-top: 0.3em;
+
+    /*styling */
+    font-family: "Great Vibes", cursive;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 6.1em;;
+}
+header .navbar-container a
+{
+    /* styling */
+    text-decoration: none;
+    color: var(--main-text-color);
+    border-radius: 12px;
+}
+
+/* menu navlink */
+header .navbar-container .nav-links .nav-link-menu
+{
+    display: inline-block;;
+    margin-top: 0em;
+    background-color: var(--secondary-color);
+    padding: 0.4em 1em;;
+    font-size: 1.1em;
+
+    /* text */
+    font-weight: 600;
+}
+
+/* icons */
+header .navbar-container svg
+{
+    color: white;
+    width: 40px;
+    vertical-align: -20%;
+}
