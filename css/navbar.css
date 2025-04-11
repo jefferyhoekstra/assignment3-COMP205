@@ -30,7 +30,7 @@ header .navbar-container .nav-links
     
     display: flex;
     flex-direction: row;
-    gap: 4em;
+    gap: 3.1em;
     font-family: "Inter", sans-serif;
 
     /* styling */

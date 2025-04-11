@@ -20,12 +20,12 @@ main .section-1 .hero-text
     flex-direction: column;
     gap: 1em;
     margin: 0 2em;
-    width: 50%;
+    width: 40%;
 
     /* styling */
     color: var(--main-text-color);
     font-family: "Inria Sans", sans-serif;
-    font-size: 4.6em;
+    font-size: 4.4em;
     font-weight: 800;
     text-shadow: 0px 0px 16px rgb(0,0,0,1);
     
@@ -40,7 +40,7 @@ main .section-1 button
 {
     margin-top: -2em;
     padding: 0.1em 0em;
-    font-size: 0.7em;
+    font-size: 0.6em;
     font-weight: 900;
     color: var(--main-text-color);
     font-family: "Inria Sans", sans-serif;
