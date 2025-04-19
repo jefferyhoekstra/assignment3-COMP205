@@ -7,7 +7,7 @@ header .navbar-container
     margin: 0;
     padding: 0;
     width: 100%;
-    height: 110px;
+    height: 100px;
     background-color: var(--main-color);
 
     /* positioning */
@@ -30,11 +30,11 @@ header .navbar-container .nav-links
     
     display: flex;
     flex-direction: row;
-    gap: 3.1em;
+    gap: 4.6em;
     font-family: "Inter", sans-serif;
 
     /* styling */
-    font-size: 1.3em;;
+    font-size: 1.2em;;
     font-weight: 200;
 }
 header .navbar-container .logo li a
@@ -60,7 +60,7 @@ header .navbar-container a
 header .navbar-container .nav-links .nav-link-menu
 {
     display: inline-block;;
-    margin-top: 0em;
+    margin-top: 0.1em;
     background-color: var(--secondary-color);
     padding: 0.4em 1em;;
     font-size: 1.1em;
@@ -74,5 +74,5 @@ header .navbar-container svg
 {
     color: white;
     width: 40px;
-    vertical-align: -20%;
+    vertical-align: -35%;
 }
